@@ -4,8 +4,8 @@
 sudo systemctl daemon-reload
 sudo rm -f /etc/nginx/sites-enabled/default
 
-sudo cp /home/ubuntu/blogprojectdrf-master/nginx/nginx.conf /etc/nginx/sites-available/fodler_name_where_seetngs.py_is
-sudo ln -s /etc/nginx/sites-available/fodler_name_where_seetngs.py_is /etc/nginx/sites-enabled/
+sudo cp /home/ubuntu/blogprojectdrf-master/nginx/nginx.conf /etc/nginx/sites-available/blog/settings.py
+sudo ln -s /etc/nginx/sites-available/blog/settings.py /etc/nginx/sites-enabled/
 #sudo ln -s /etc/nginx/sites-available/blog /etc/nginx/sites-enabled
 #sudo nginx -t
 sudo gpasswd -a www-data ubuntu
